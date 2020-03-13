@@ -1,0 +1,29 @@
+{
+  "name": "blog2.0",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naihloan/blog2.0.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "author",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naihloan/blog2.0/issues"
+  },
+  "homepage": "https://github.com/naihloan/blog2.0#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-edge": "^2.0.2",
+    "nodemon": "^2.0.2",
+    "popper": "^1.0.1",
+    "startbootstrap-clean-blog": "^5.0.8"
+  }
+}
