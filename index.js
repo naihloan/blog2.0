@@ -7,9 +7,12 @@ app.use(expressEdge);
 app.set('views', __dirname + '/views');
 
 app.get('/', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'pages/index.html'));
-    // res.render('index');
+    res.render('index');
 });
+
+// app.get('/', (req, res) => {
+//     res.sendFile(path.resolve(__dirname, 'pages/index.html'));
+// });
 
 app.get('/about', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'pages/about.html'));
