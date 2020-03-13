@@ -1,11 +1,9 @@
 const express = require('express');
-// const expressEdge = require('express-edge');
-// const popper = require('popper');
+const expressEdge = require('express-edge');
 const app = new express();
  
 app.use(express.static('public'));
-// app.use(expressEdge);
-// app.use(popper);
+app.use(expressEdge);
 app.set('views', __dirname + '/views');
 
 app.get('/', (req, res) => {
